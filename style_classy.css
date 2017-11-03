@@ -1,0 +1,73 @@
+@keyframes bodya {
+	0% {background-color: #eaf2ff;}
+	25% {background-color: #dbe8ff;}
+	50% {background-color: #c9dcfc;}
+	75% {background-color: #dbe8ff;}
+	100% {background-color: #eaf2ff;}
+}
+
+body {
+	animation: bodya 3s linear infinite;
+}
+
+a:hover {
+	font-size: 200%;
+	background-color: yellow;
+}
+
+@keyframes header1 {
+	0% {left: -500px;}
+	10% {left: -400px;}
+	20% {left: -300px;}
+	30% {left: -200px;}
+	40% {left: -100px;}
+	50% {left: 0px;}
+	60% {left: 100px;}
+	70% {left: 200px;}
+	80% {left: 300px;}
+	90% {left: 400px;}
+	100% {left: 500px;}
+}
+
+h1 {
+	animation: header1 3s linear infinite;
+	position: relative;
+	border: inset thick gray;
+	border-radius:50px;
+	width:300px;
+	text-align: center;
+	margin-left: 500px;
+}
+
+@keyframes header2 {
+	0% {background-color: orange;
+		border-color: #2d2d2d;}
+	25% {background-color: yellow;
+		border-color: #595959;}
+	50% {background-color: white;
+		border-color: #d1d1d1;}
+	75% {background-color: yellow;
+		border-color: #595959;}
+	100% {background-color: orange;
+		border-color: #2d2d2d;}
+}
+
+h2 {
+	animation: header2 3s linear infinite;
+	width: 200px;
+	border: groove thick;
+	border-radius: 10px;
+	padding-left: 15px;
+}
+
+@keyframes pa {
+	0% {color: #6da3ff;}
+	25% {color: #5b98ff;}
+	50% {color: #3a83ff;}
+	75% {color: #5b98ff;}
+	100% {color: #6da3ff;}
+}
+
+p {
+	animation: pa 3s linear infinite;
+}
